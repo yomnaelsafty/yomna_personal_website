@@ -1,0 +1,73 @@
+/* CSS Reset */
+* {
+  margin: 0;
+  padding: 0;
+  font: inherit;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+a {
+  color: inherit;
+  display: inline-block;
+}
+
+button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  border: 0;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+/* End CSS Reset */
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 11rem;
+}
+
+body,
+[type="submit"] {
+  font-size: 1.6rem;
+  font-family: var(--font-family-raleway);
+  background-color: var(--color-background);
+  color: var(--color-text);
+  border: 0;
+}
+
+.container {
+  display: grid;
+  row-gap: 11rem;
+  margin: 0 auto;
+  max-width: calc(var(--container-width) + calc(var(--gutter) * 2));
+  padding-inline: var(--gutter);
+}
+
+.container:has(#bio:target) .navigation__bio,
+.container:has(#skills:target) .navigation__skills,
+.container:has(#media:target) .navigation__media,
+.container:has(#projects:target) .navigation__projects,
+.container:has(#contact:target) .navigation__contact,
+.container:has(#clients:target) .navigation__clients {
+  color: var(--color-blue);
+  text-decoration: underline;
+  font-weight: var(--font-weight-bold);
+}
+
+.video-loop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  min-height: 100%;
+  opacity: 0.08;
+  z-index: -1;
+}
