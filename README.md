@@ -33,7 +33,7 @@ It’s fully responsive and works well on both desktop and mobile devices 💻�
 
 ## 🚀 Live Demo
 You can view the live version here:  
-👉 [**View Portfolio**](https://YOUR-USERNAME.github.io/YOUR-REPO-NAME)
+👉 [**View Portfolio**](https://yomnaelsafty.github.io/yomna_personal_website)
 
 (Replace the link above with your actual GitHub Pages link.)
 
@@ -42,8 +42,8 @@ You can view the live version here:
 ## 💌 Contact Me
 If you'd like to collaborate or just say hi, feel free to reach out!
 
-📧 **Email:** your.email@example.com  
-💼 **LinkedIn:** [linkedin.com/in/your-profile](https://linkedin.com/in/your-profile)
+📧 **Email:** yomna421@gmail.com.com  
+💼 **LinkedIn:** [linkedin.com/in/your-profile](https://www.linkedin.com/in/yomna-ali-66a778148/)
 
 ---
 
